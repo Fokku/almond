@@ -1,20 +1,20 @@
-app_name = "erpnext"
-app_title = "ERPNext"
-app_publisher = "Frappe Technologies Pvt. Ltd."
+app_name = "almonderp"
+app_title = "AlmondERP"
+app_publisher = "Almond"
 app_description = """ERP made simple"""
 app_icon = "fa fa-th"
 app_color = "#e74c3c"
-app_email = "hello@frappe.io"
+app_email = "almonderp@gmail.com"
 app_license = "GNU General Public License (v3)"
-source_link = "https://github.com/frappe/erpnext"
+source_link = "https://github.com/Fokku/almond"
 app_logo_url = "/assets/erpnext/images/almonderp-logo.svg"
 
 
 add_to_apps_screen = [
 	{
-		"name": "erpnext",
+		"name": "almonderp",
 		"logo": "/assets/erpnext/images/almonderp-logo.png",
-		"title": "ERPNext",
+		"title": "AlmondERP",
 		"route": "/app/home",
 		"has_permission": "erpnext.check_app_permission",
 	}
